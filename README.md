@@ -4,7 +4,7 @@
 
 指定したGitLabリポジトリへ24時間以内にコミットした数も一緒に通知してくれます。
 
-![sample](https://raw.github.com/wiki/kokeiro001/HowAreYouProgressing/images/sample.png)
+![sample](https://github.com/kokeiro001/HowAreYouProgressing/blob/master/images/sample.png)
 
 ## 使い方
 
