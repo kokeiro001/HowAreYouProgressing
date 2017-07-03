@@ -10,7 +10,7 @@ namespace HowAreYouProgressing
     public static class NotifyTimerTriggerFunction
     {
         // 時差考える。21時に通知したいので、21-9=12
-        [FunctionName("TimerTriggerCSharp")]
+        [FunctionName("NotifyTimerTrigger")]
         public static async Task Run([TimerTrigger("0 0 12 * * *")]TimerInfo myTimer, TraceWriter log)
         {
             log.Info($"C# Timer trigger function executed at: {DateTime.Now}");
