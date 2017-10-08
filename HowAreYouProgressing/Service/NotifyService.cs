@@ -28,7 +28,7 @@ namespace HowAreYouProgressing.Service
             int comitNumSince24h = GetCommitNumSince24h();
             int remainDate = GetRemainDate();
 
-            var text = $"コミケまであと{remainDate}日！24時間以内のコミット数は{comitNumSince24h}！！進　捗　ど　う　で　す　か　？　？　？";
+            var text = $"C93まであと{remainDate}日！24時間以内のコミット数は{comitNumSince24h}！！進　捗　ど　う　で　す　か　？　？　？";
 
             await client.SendMessageAsync(text);
         }
@@ -47,7 +47,7 @@ namespace HowAreYouProgressing.Service
         int GetRemainDate()
         {
             var now = DateTime.UtcNow;
-            var comicMarketDate = new DateTime(2017, 8, 11);
+            var comicMarketDate = new DateTime(2017, 12, 29);
             return (comicMarketDate - now).Days;
         }
     }
